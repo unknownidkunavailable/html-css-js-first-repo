@@ -1,0 +1,108 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  font-size:16px;
+  font-weight: 400;
+}
+h2,h4,p{
+  margin:0;
+  
+}
+*,*:before,*:after{
+  box-sizing: inherit; /*All elements should inherit the box-sizing*/
+}
+body{
+  padding:20px;
+}
+#card{
+  width:600px;
+  height:400px;
+  box-shadow: 0px 1px 16px -1px rgba(0,0,0,0.3);
+  border-radius:5px;
+  overflow:hidden;
+}
+#top-section{
+  padding:25px;
+  width: 100%;
+  height: 45%;
+}
+#bottom-section{
+  color:#e5eff5;
+  width:100%;
+  height:55%;
+
+}
+#bottom-left-section{
+  padding:25px;
+  display:inline-block;
+  width:50%;
+  height:100%;
+  vertical-align:top;
+  background-color:#4cd9d6;
+}
+#bottom-right-section{
+  padding:25px;
+  display:inline-block;
+  width:50%;
+  height:100%;
+  vertical-align: top;
+  background-color:#6fe3e0;
+}
+
+#top-section h2{
+  color:#4cd9d6;
+  margin-bottom:20px;
+}
+#top-section h4{
+  margin-bottom:10px;
+  color: #c0df34;
+}
+#top-section p{
+  color: #98a6bd;
+}
+button{
+  color:#e5eff5;
+  margin-top:35px;
+  margin-left:10px;
+  background-color: #c0df34;
+  border:none;
+  padding: 10px;
+  width:90%;
+  border-radius:3px;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.25);
+  
+}
+button:hover{
+  cursor:pointer;
+  background-color:#b8d923;
+  transform:scale(1.02);
+}
+#price{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#bottom-left-section h4{
+  margin-bottom: 20px;
+}
+#price-container{
+  margin-bottom:12px;
+}
+#price-frequency, #price{
+  display:inline-block;
+}
+#price-frequency{
+  position:relative;
+  bottom:3px;
+  font-size:0.8rem;
+  margin-left:5px;
+  opacity:0.8;
+}
+#bottom-left-section p{
+  font-size:0.8;
+}
+ul{
+  padding:0;
+  list-style:none;
+  font-size: 0.8rem;
+  opacity:0.8;
+}
